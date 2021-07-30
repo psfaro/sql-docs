@@ -37,10 +37,9 @@ Before you begin using Azure Key Vault with your SQL Server instance, be sure th
 
 - Install the version of Visual Studio C++ Redistributable that's based on the version of SQL Server that you're running:
   
-  SQL Server version  | Visual Studio C++ Redistributable version
+ SQL Server version  | Visual Studio C++ Redistributable version
   ---------|---------
-  2008, 2008 R2, 2012, 2014 | [Visual C++ Redistributable packages for Visual Studio 2013](https://www.microsoft.com/download/details.aspx?id=40784)
-  2016 | [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48145)
+  2008, 2008 R2, 2012, 2014 | [Visual C++ Redistributable packages for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48145)
 
 ## Step 1: Set up an Azure AD service principal
 
