@@ -43,10 +43,10 @@ EXEC managed_backup.sp_backup_config_schedule
   
 ##  <a name="Arguments"></a> Arguments  
  @database_name  
- The database name for enabling managed backup on a specific database. If NULL or *, then this managed backup applies to all databases on the server.  
-  
+ If set to NULL the settings will be applied at instance level(apply to all new databases created on the instance)
+ 
  @scheduling_option  
- Specify 'System' for system-controlled backup scheduling. Specify 'Custom' for a custom schedule defined by the other paratmeters.  
+ Specify 'System' for system-controlled backup scheduling. Specify 'Custom' for a custom schedule defined by the other parameters.  
   
  @full_backup_freq_type  
  The frequency type for the managed  backup operation, which can be set to 'Daily' or 'Weekly'.  
